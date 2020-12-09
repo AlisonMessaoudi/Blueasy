@@ -1,45 +1,36 @@
-#portfolio {
-    width: 100vw;
-    height: 100vh;
+.portfolio{
+    padding: 70px 10px;
 }
-
-#header_portfolio {
-    height: 95px;
-    margin-top: 5%;
+.header_portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-#header_portfolio h2 {
+.portfolio-titre h2 {
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: lighter;
     margin-right: 0;
     margin-left: 0;
 }
-
-.container_nav {
-    display: flex;
-    width: 85%;
+.trait {
+    content: "";
+    margin-top: 3px;
+    border: 0.5px solid #515f67;
+    width: 70px;
 }
-
 .lien_menu {
     padding: .3rem 1rem;
 }
 
-.lien_menu a {
+.nav-item a {
     text-transform: uppercase;
     font-weight: 500;
     color: black;
 }
 
-.lien_menu .active {
+.nav-item .active {
     border: solid rgb(0, 208, 255) 2px;
 }
-
-.trait {
-    content: '';
-    width: 50px;
-    border-top: 1px solid black;
-}
-
 .mySlides {
     height: 100%;
 }
