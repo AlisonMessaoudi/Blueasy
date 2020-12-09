@@ -1,0 +1,26 @@
+/*************** WHO IS JOHN DOE ***************/
+.whois{
+    background-color: #8cb3d7;
+    padding: 70px 0px;
+}
+.whois_titre{
+    color: white;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.whois_titre::after {
+    display: flex;
+    content: "";
+    margin-top: 3px;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    width: 70px;
+}
+.whois_desc p{
+    color: white;
+    margin-bottom: 30px;
+}
+.whois_desc img{
+    margin-right: 30px;
+}
+
