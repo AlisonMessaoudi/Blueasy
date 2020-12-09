@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container-fluid{
-    width: 100vw;
+.header{
     height: 100vh;
+    width: 100%;
     background-image: url(images/heromono.jpg) !important;
 }
-   
+.header-container-fluid{
+    height: 100vh;
+}
 .bg-light{
     height: 100px;
     width: 100%;
@@ -51,7 +52,6 @@ span.E {
 
 .container-h1 p {
     font-size: 40px;
-    font-weight: 200px;
     color: white;
     background: rgba(128, 128, 128, 0.541);
 }
