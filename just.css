@@ -1,4 +1,9 @@
 /*************** JUST DEFAULT SECTION ***************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .just{
     background-color: #515f67;
     padding: 70px 0px;
