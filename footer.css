@@ -8,15 +8,15 @@
     align-items: center;
     justify-content: space-between;
 }
-.menu-footer{
+.container-footer .menu-footer{
 padding-left: 80px;
 
 }
 
-.nav-footer{
+.container-footer .nav-footer{
     color: #9b9b99;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .copyright{
@@ -24,14 +24,14 @@ padding-left: 80px;
     color: #9b9b99;
     
 }
-a{
+.container-footer a{
     color: #9b9b99;
 }
 
-a:hover{
+.container-footer a:hover{
     color: #d8d8d8;
 }
-.nav-link{
+.container-footer .nav-link{
     border-right: solid 2px #9b9b99;
     line-height: 2px;
 }
