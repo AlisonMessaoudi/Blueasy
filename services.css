@@ -1,4 +1,9 @@
 /*************** SERVICE 4 CATEGORIES ***************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .service{
     background-image: url(images/fondservices.png);
 }
