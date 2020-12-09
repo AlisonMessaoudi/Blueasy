@@ -1,1 +1,57 @@
-/* un commentaire
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/heromono.jpg) !important;
+}
+   
+.bg-light{
+    height: 100px;
+    width: 100%;
+    background: #6b6b6b70!important;
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+    padding: 0px 80px;
+}
+
+span.E {
+    color: #4bcaff;
+    font-weight: 800;
+
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+    border: solid 3px #4bcaff;
+}
+
+.container-h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.container-h1 p {
+    font-size: 40px;
+    font-weight: 200px;
+    color: white;
+    background: rgba(128, 128, 128, 0.541);
+}
