@@ -21,18 +21,13 @@
     border-top: 1px solid white;
 }
 
-.formulaire {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-label {
+.formulaire label {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.form-control {
+.formulaire .form-control {
     background-color: transparent;
     border: solid white 1px;
     border-radius: 0;
@@ -77,8 +72,10 @@ label {
     height: 200px;
 }
 
-form{
+.formulaire {
     padding-bottom: 5%;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 

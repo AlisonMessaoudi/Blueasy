@@ -29,7 +29,7 @@
         <div class="trait"></div>
     </div>
 
-    <form class="container form">
+    <form class="container formulaire">
         
         <div class="row">
 
