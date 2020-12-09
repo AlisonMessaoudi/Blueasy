@@ -1,10 +1,20 @@
 /*************** SERVICE 4 CATEGORIES ***************/
 .service{
-    background-image: url(images/fondservices.png) !important;
+    background-image: url(images/fondservices.png);
 }
 .service_titre{
     color: white;
     padding: 60px 0px 30px 0px;
+}
+.service_titre h2{
+    text-transform: uppercase;
+}
+.service_titre h2::after {
+    display: flex;
+    content: "";
+    margin-top: 3px;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    width: 70px;
 }
 .service_text{
     color: white;
