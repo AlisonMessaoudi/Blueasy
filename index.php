@@ -13,6 +13,7 @@
  <link rel="stylesheet" href="portfolio.css">
  <link rel="stylesheet" href="just.css">
  <link rel="stylesheet" href="contact.css">
+ <link rel="stylesheet" href="footer.css">
 
 
 
@@ -28,6 +29,7 @@
   require('portfolio.php');
   require('just.php');
   require('contact.php');
+  require('footer.php');
 
 
 ?>
