@@ -12,6 +12,7 @@
  <link rel="stylesheet" href="services.css">
  <link rel="stylesheet" href="portfolio.css">
  <link rel="stylesheet" href="just.css">
+ <link rel="stylesheet" href="contact.css">
 
 
 
@@ -26,7 +27,7 @@
   require('services.php');
   require('portfolio.php');
   require('just.php');
-
+  require('contact.php');
 
 
 ?>
