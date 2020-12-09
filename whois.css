@@ -1,4 +1,9 @@
 /*************** WHO IS JOHN DOE ***************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .whois{
     background-color: #8cb3d7;
     padding: 70px 0px;
