@@ -1,0 +1,38 @@
+/*************** TESTIMONIALS ***************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.testi{
+    padding: 50px 0px;
+}
+.testi_titre{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.testi_titre h2{
+    color: #515f67;
+    width: 95%;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.testi_titre img{
+    width: 5%;
+}
+.testi_titre h2::after {
+    display: flex;
+    content: "";
+    margin-top: 3px;
+    border: 0.5px solid #515f67;
+    width: 70px;
+}
+.testi_info a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.testi_info p{
+    color: #515f67;
+}
