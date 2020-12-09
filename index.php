@@ -12,6 +12,8 @@
  <link rel="stylesheet" href="services.css">
  <link rel="stylesheet" href="portfolio.css">
  <link rel="stylesheet" href="just.css">
+ <link rel="stylesheet" href="twitter.css">
+ <link rel="stylesheet" href="whois.css">
  <link rel="stylesheet" href="contact.css">
  <link rel="stylesheet" href="footer.css">
 
@@ -28,6 +30,8 @@
   require('services.php');
   require('portfolio.php');
   require('just.php');
+  require('twitter.php');
+  require('whois.php');
   require('contact.php');
   require('footer.php');
 
